@@ -1,0 +1,78 @@
+@media screen and (min-width: 30px){
+    body{
+        background-color: brown;
+    }
+} 
+
+body{
+    font-family: "Abel", sans-serif;
+    background-color:#F7F8F7;
+}
+header{
+    width: 100em;
+    height: 2em;
+}
+#navegadores{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+#logo{
+    position:relative;
+    
+}
+#section1{
+    position:relative;
+}
+#texto_entrada{
+    position:abolute;
+    right: 50%;
+    top:5%;
+    text-align:left;
+    margin:12px 25px 35px 50px;
+}
+
+#imagem_home{
+    position:absolute;
+    right:15%;
+    bottom: 1%;
+}
+
+#section2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#imagens_section2{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#contrate{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: space-between;
+}
+
+#socials{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.socials_image{
+    display: list-item;
+    height:30px;
+    width: 30px;
+    justify-content: space-between;
+}
